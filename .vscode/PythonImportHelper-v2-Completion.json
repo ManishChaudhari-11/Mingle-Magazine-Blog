@@ -650,6 +650,14 @@
         "documentation": {}
     },
     {
+        "label": "app",
+        "importPath": "wsgi",
+        "description": "wsgi",
+        "isExtraImport": true,
+        "detail": "wsgi",
+        "documentation": {}
+    },
+    {
         "label": "error_404",
         "kind": 2,
         "importPath": "flaskblog.errors.handlers",
