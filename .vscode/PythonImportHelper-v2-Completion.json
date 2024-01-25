@@ -1,0 +1,940 @@
+[
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "abort",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "params",
+        "importPath": "flaskblog",
+        "description": "flaskblog",
+        "isExtraImport": true,
+        "detail": "flaskblog",
+        "documentation": {}
+    },
+    {
+        "label": "params",
+        "importPath": "flaskblog",
+        "description": "flaskblog",
+        "isExtraImport": true,
+        "detail": "flaskblog",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "flaskblog",
+        "description": "flaskblog",
+        "isExtraImport": true,
+        "detail": "flaskblog",
+        "documentation": {}
+    },
+    {
+        "label": "params",
+        "importPath": "flaskblog",
+        "description": "flaskblog",
+        "isExtraImport": true,
+        "detail": "flaskblog",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt",
+        "importPath": "flaskblog",
+        "description": "flaskblog",
+        "isExtraImport": true,
+        "detail": "flaskblog",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "flaskblog",
+        "description": "flaskblog",
+        "isExtraImport": true,
+        "detail": "flaskblog",
+        "documentation": {}
+    },
+    {
+        "label": "params",
+        "importPath": "flaskblog",
+        "description": "flaskblog",
+        "isExtraImport": true,
+        "detail": "flaskblog",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "flaskblog",
+        "description": "flaskblog",
+        "isExtraImport": true,
+        "detail": "flaskblog",
+        "documentation": {}
+    },
+    {
+        "label": "mail",
+        "importPath": "flaskblog",
+        "description": "flaskblog",
+        "isExtraImport": true,
+        "detail": "flaskblog",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "flaskblog",
+        "description": "flaskblog",
+        "isExtraImport": true,
+        "detail": "flaskblog",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "flaskblog",
+        "description": "flaskblog",
+        "isExtraImport": true,
+        "detail": "flaskblog",
+        "documentation": {}
+    },
+    {
+        "label": "login_manager",
+        "importPath": "flaskblog",
+        "description": "flaskblog",
+        "isExtraImport": true,
+        "detail": "flaskblog",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "flaskblog",
+        "description": "flaskblog",
+        "isExtraImport": true,
+        "detail": "flaskblog",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "importPath": "flaskblog.models",
+        "description": "flaskblog.models",
+        "isExtraImport": true,
+        "detail": "flaskblog.models",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "importPath": "flaskblog.models",
+        "description": "flaskblog.models",
+        "isExtraImport": true,
+        "detail": "flaskblog.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "flaskblog.models",
+        "description": "flaskblog.models",
+        "isExtraImport": true,
+        "detail": "flaskblog.models",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "importPath": "flaskblog.models",
+        "description": "flaskblog.models",
+        "isExtraImport": true,
+        "detail": "flaskblog.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "flaskblog.models",
+        "description": "flaskblog.models",
+        "isExtraImport": true,
+        "detail": "flaskblog.models",
+        "documentation": {}
+    },
+    {
+        "label": "CKEditorField",
+        "importPath": "flask_ckeditor",
+        "description": "flask_ckeditor",
+        "isExtraImport": true,
+        "detail": "flask_ckeditor",
+        "documentation": {}
+    },
+    {
+        "label": "FlaskForm",
+        "importPath": "flask_wtf",
+        "description": "flask_wtf",
+        "isExtraImport": true,
+        "detail": "flask_wtf",
+        "documentation": {}
+    },
+    {
+        "label": "FlaskForm",
+        "importPath": "flask_wtf",
+        "description": "flask_wtf",
+        "isExtraImport": true,
+        "detail": "flask_wtf",
+        "documentation": {}
+    },
+    {
+        "label": "SelectField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "StringField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "SubmitField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "TextAreaField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "BooleanField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "StringField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "SubmitField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "DataRequired",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "DataRequired",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "Email",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "EqualTo",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "Length",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "logout_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "UserMixin",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "PostForm",
+        "importPath": "flaskblog.posts.forms",
+        "description": "flaskblog.posts.forms",
+        "isExtraImport": true,
+        "detail": "flaskblog.posts.forms",
+        "documentation": {}
+    },
+    {
+        "label": "FileAllowed",
+        "importPath": "flask_wtf.file",
+        "description": "flask_wtf.file",
+        "isExtraImport": true,
+        "detail": "flask_wtf.file",
+        "documentation": {}
+    },
+    {
+        "label": "FileField",
+        "importPath": "flask_wtf.file",
+        "description": "flask_wtf.file",
+        "isExtraImport": true,
+        "detail": "flask_wtf.file",
+        "documentation": {}
+    },
+    {
+        "label": "LoginForm",
+        "importPath": "flaskblog.users.forms",
+        "description": "flaskblog.users.forms",
+        "isExtraImport": true,
+        "detail": "flaskblog.users.forms",
+        "documentation": {}
+    },
+    {
+        "label": "RegistrationForm",
+        "importPath": "flaskblog.users.forms",
+        "description": "flaskblog.users.forms",
+        "isExtraImport": true,
+        "detail": "flaskblog.users.forms",
+        "documentation": {}
+    },
+    {
+        "label": "RequestResetForm",
+        "importPath": "flaskblog.users.forms",
+        "description": "flaskblog.users.forms",
+        "isExtraImport": true,
+        "detail": "flaskblog.users.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ResetPasswordForm",
+        "importPath": "flaskblog.users.forms",
+        "description": "flaskblog.users.forms",
+        "isExtraImport": true,
+        "detail": "flaskblog.users.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateAccountForm",
+        "importPath": "flaskblog.users.forms",
+        "description": "flaskblog.users.forms",
+        "isExtraImport": true,
+        "detail": "flaskblog.users.forms",
+        "documentation": {}
+    },
+    {
+        "label": "save_picture",
+        "importPath": "flaskblog.users.utils",
+        "description": "flaskblog.users.utils",
+        "isExtraImport": true,
+        "detail": "flaskblog.users.utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_reset_email",
+        "importPath": "flaskblog.users.utils",
+        "description": "flaskblog.users.utils",
+        "isExtraImport": true,
+        "detail": "flaskblog.users.utils",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "secrets",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "secrets",
+        "description": "secrets",
+        "detail": "secrets",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "importPath": "flask_mail",
+        "description": "flask_mail",
+        "isExtraImport": true,
+        "detail": "flask_mail",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "URLSafeTimedSerializer",
+        "importPath": "itsdangerous.url_safe",
+        "description": "itsdangerous.url_safe",
+        "isExtraImport": true,
+        "detail": "itsdangerous.url_safe",
+        "documentation": {}
+    },
+    {
+        "label": "error_404",
+        "kind": 2,
+        "importPath": "flaskblog.errors.handlers",
+        "description": "flaskblog.errors.handlers",
+        "peekOfCode": "def error_404(error):\n    return render_template(\"errors/404.html\", params=params, title=\"Error\"), 404\n@errors.app_errorhandler(403)\ndef error_403(error):\n    return render_template(\"errors/403.html\", params=params, title=\"Error\"), 403\n@errors.app_errorhandler(500)\ndef error_500(error):\n    return render_template(\"errors/500.html\", params=params, title=\"Error\"), 500",
+        "detail": "flaskblog.errors.handlers",
+        "documentation": {}
+    },
+    {
+        "label": "error_403",
+        "kind": 2,
+        "importPath": "flaskblog.errors.handlers",
+        "description": "flaskblog.errors.handlers",
+        "peekOfCode": "def error_403(error):\n    return render_template(\"errors/403.html\", params=params, title=\"Error\"), 403\n@errors.app_errorhandler(500)\ndef error_500(error):\n    return render_template(\"errors/500.html\", params=params, title=\"Error\"), 500",
+        "detail": "flaskblog.errors.handlers",
+        "documentation": {}
+    },
+    {
+        "label": "error_500",
+        "kind": 2,
+        "importPath": "flaskblog.errors.handlers",
+        "description": "flaskblog.errors.handlers",
+        "peekOfCode": "def error_500(error):\n    return render_template(\"errors/500.html\", params=params, title=\"Error\"), 500",
+        "detail": "flaskblog.errors.handlers",
+        "documentation": {}
+    },
+    {
+        "label": "errors",
+        "kind": 5,
+        "importPath": "flaskblog.errors.handlers",
+        "description": "flaskblog.errors.handlers",
+        "peekOfCode": "errors = Blueprint(\"errors\", __name__)\n@errors.app_errorhandler(404)\ndef error_404(error):\n    return render_template(\"errors/404.html\", params=params, title=\"Error\"), 404\n@errors.app_errorhandler(403)\ndef error_403(error):\n    return render_template(\"errors/403.html\", params=params, title=\"Error\"), 403\n@errors.app_errorhandler(500)\ndef error_500(error):\n    return render_template(\"errors/500.html\", params=params, title=\"Error\"), 500",
+        "detail": "flaskblog.errors.handlers",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "flaskblog.main.routes",
+        "description": "flaskblog.main.routes",
+        "peekOfCode": "def home():\n    page = request.args.get(\"page\", 1, type=int)\n    category = request.args.get(\"category\", type=str, default=None)\n    posts = Post.query.all()\n    categories = []\n    for post in posts:\n        categories.append(post.category)\n    categories = list(set(categories))\n    categories.sort()\n    if category is None:",
+        "detail": "flaskblog.main.routes",
+        "documentation": {}
+    },
+    {
+        "label": "about",
+        "kind": 2,
+        "importPath": "flaskblog.main.routes",
+        "description": "flaskblog.main.routes",
+        "peekOfCode": "def about():\n    return render_template(\"about.html\", title=\"About\", params=params)\n@main.route(\"/calendar\")\ndef calendar():\n    return render_template(\"calendar.html\", title=\"Calendar\", params=params)",
+        "detail": "flaskblog.main.routes",
+        "documentation": {}
+    },
+    {
+        "label": "calendar",
+        "kind": 2,
+        "importPath": "flaskblog.main.routes",
+        "description": "flaskblog.main.routes",
+        "peekOfCode": "def calendar():\n    return render_template(\"calendar.html\", title=\"Calendar\", params=params)",
+        "detail": "flaskblog.main.routes",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 5,
+        "importPath": "flaskblog.main.routes",
+        "description": "flaskblog.main.routes",
+        "peekOfCode": "main = Blueprint(\"main\", __name__)\n@main.route(\"/\")\n@main.route(\"/home\")\ndef home():\n    page = request.args.get(\"page\", 1, type=int)\n    category = request.args.get(\"category\", type=str, default=None)\n    posts = Post.query.all()\n    categories = []\n    for post in posts:\n        categories.append(post.category)",
+        "detail": "flaskblog.main.routes",
+        "documentation": {}
+    },
+    {
+        "label": "PostForm",
+        "kind": 6,
+        "importPath": "flaskblog.posts.forms",
+        "description": "flaskblog.posts.forms",
+        "peekOfCode": "class PostForm(FlaskForm):\n    title = StringField(\"Title\", validators=[DataRequired()])\n    category = SelectField(\n        choices=(\n            (\"Select Category\", \"Select Category\"),\n            (\"Food\", \"Food\"),\n            (\"Travel\", \"Travel\"),\n            (\"Lifestyle\", \"Lifestyle\"),\n            (\"Fashion\", \"Fashion\"),\n            (\"Fitness\", \"Fitness\"),",
+        "detail": "flaskblog.posts.forms",
+        "documentation": {}
+    },
+    {
+        "label": "new_post",
+        "kind": 2,
+        "importPath": "flaskblog.posts.routes",
+        "description": "flaskblog.posts.routes",
+        "peekOfCode": "def new_post():\n    form = PostForm()\n    if form.validate_on_submit():\n        post = Post(\n            title=form.title.data,\n            tagline=form.tagline.data,\n            category=form.category.data,\n            content=form.content.data,\n            author=current_user,\n        )",
+        "detail": "flaskblog.posts.routes",
+        "documentation": {}
+    },
+    {
+        "label": "post",
+        "kind": 2,
+        "importPath": "flaskblog.posts.routes",
+        "description": "flaskblog.posts.routes",
+        "peekOfCode": "def post(post_id):\n    post = Post.query.get_or_404(post_id)\n    return render_template(\"post.html\", title=post.title, params=params, post=post)\n@posts.route(\"/post/<int:post_id>/update\", methods=[\"GET\", \"POST\"])\n@login_required\ndef update_post(post_id):\n    post = Post.query.get_or_404(post_id)\n    if post.author != current_user:\n        abort(403)\n    form = PostForm()",
+        "detail": "flaskblog.posts.routes",
+        "documentation": {}
+    },
+    {
+        "label": "update_post",
+        "kind": 2,
+        "importPath": "flaskblog.posts.routes",
+        "description": "flaskblog.posts.routes",
+        "peekOfCode": "def update_post(post_id):\n    post = Post.query.get_or_404(post_id)\n    if post.author != current_user:\n        abort(403)\n    form = PostForm()\n    if form.validate_on_submit():\n        post.title = form.title.data\n        post.tagline = form.tagline.data\n        post.category = form.category.data\n        post.content = form.content.data",
+        "detail": "flaskblog.posts.routes",
+        "documentation": {}
+    },
+    {
+        "label": "delete_post",
+        "kind": 2,
+        "importPath": "flaskblog.posts.routes",
+        "description": "flaskblog.posts.routes",
+        "peekOfCode": "def delete_post(post_id):\n    post = Post.query.get_or_404(post_id)\n    if post.author != current_user:\n        abort(403)\n    db.session.delete(post)\n    db.session.commit()\n    flash(f\"Your post has been deleted!\", \"success\")\n    return redirect(url_for(\"main.home\"))",
+        "detail": "flaskblog.posts.routes",
+        "documentation": {}
+    },
+    {
+        "label": "posts",
+        "kind": 5,
+        "importPath": "flaskblog.posts.routes",
+        "description": "flaskblog.posts.routes",
+        "peekOfCode": "posts = Blueprint(\"posts\", __name__)\n@posts.route(\"/post/new\", methods=[\"GET\", \"POST\"])\n@login_required\ndef new_post():\n    form = PostForm()\n    if form.validate_on_submit():\n        post = Post(\n            title=form.title.data,\n            tagline=form.tagline.data,\n            category=form.category.data,",
+        "detail": "flaskblog.posts.routes",
+        "documentation": {}
+    },
+    {
+        "label": "RegistrationForm",
+        "kind": 6,
+        "importPath": "flaskblog.users.forms",
+        "description": "flaskblog.users.forms",
+        "peekOfCode": "class RegistrationForm(FlaskForm):\n    username = StringField(\n        \"Username\", validators=[DataRequired(), Length(min=2, max=20)]\n    )\n    email = StringField(\"Email\", validators=[DataRequired(), Email()])\n    password = PasswordField(\"Password\", validators=[DataRequired()])\n    confirm_password = PasswordField(\n        \"Confirm Password\", validators=[DataRequired(), EqualTo(\"password\")]\n    )\n    submit = SubmitField(\"Sign Up\")",
+        "detail": "flaskblog.users.forms",
+        "documentation": {}
+    },
+    {
+        "label": "LoginForm",
+        "kind": 6,
+        "importPath": "flaskblog.users.forms",
+        "description": "flaskblog.users.forms",
+        "peekOfCode": "class LoginForm(FlaskForm):\n    email = StringField(\"Email\", validators=[DataRequired(), Email()])\n    password = PasswordField(\"Password\", validators=[DataRequired()])\n    remember = BooleanField(\"Remember Me\")\n    submit = SubmitField(\"Login\")\nclass UpdateAccountForm(FlaskForm):\n    username = StringField(\n        \"Username\", validators=[DataRequired(), Length(min=2, max=20)]\n    )\n    email = StringField(\"Email\", validators=[DataRequired(), Email()])",
+        "detail": "flaskblog.users.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateAccountForm",
+        "kind": 6,
+        "importPath": "flaskblog.users.forms",
+        "description": "flaskblog.users.forms",
+        "peekOfCode": "class UpdateAccountForm(FlaskForm):\n    username = StringField(\n        \"Username\", validators=[DataRequired(), Length(min=2, max=20)]\n    )\n    email = StringField(\"Email\", validators=[DataRequired(), Email()])\n    picture = FileField(\n        \"Update Profile Picture\", validators=[FileAllowed([\"jpg\", \"png\", \"jpeg\"])]\n    )\n    submit = SubmitField(\"Update\")\n    def validate_username(self, username):",
+        "detail": "flaskblog.users.forms",
+        "documentation": {}
+    },
+    {
+        "label": "RequestResetForm",
+        "kind": 6,
+        "importPath": "flaskblog.users.forms",
+        "description": "flaskblog.users.forms",
+        "peekOfCode": "class RequestResetForm(FlaskForm):\n    email = StringField(\"Email\", validators=[DataRequired(), Email()])\n    submit = SubmitField(\"Request Password Reset\")\n    def validate_email(self, email):\n        user = User.query.filter_by(email=email.data).first()\n        if user is None:\n            raise ValidationError(\n                \"There is no account with that email. You must register first.\"\n            )\nclass ResetPasswordForm(FlaskForm):",
+        "detail": "flaskblog.users.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ResetPasswordForm",
+        "kind": 6,
+        "importPath": "flaskblog.users.forms",
+        "description": "flaskblog.users.forms",
+        "peekOfCode": "class ResetPasswordForm(FlaskForm):\n    password = PasswordField(\"Password\", validators=[DataRequired()])\n    confirm_password = PasswordField(\n        \"Confirm Password\", validators=[DataRequired(), EqualTo(\"password\")]\n    )\n    submit = SubmitField(\"Reset Password\")",
+        "detail": "flaskblog.users.forms",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "flaskblog.users.routes",
+        "description": "flaskblog.users.routes",
+        "peekOfCode": "def register():\n    if current_user.is_authenticated:\n        return redirect(url_for(\"main.home\"))\n    form = RegistrationForm()\n    if form.validate_on_submit():\n        hashed_password = bcrypt.generate_password_hash(form.password.data).decode(\n            \"utf-8\"\n        )\n        user = User(\n            username=form.username.data, email=form.email.data, password=hashed_password",
+        "detail": "flaskblog.users.routes",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "flaskblog.users.routes",
+        "description": "flaskblog.users.routes",
+        "peekOfCode": "def login():\n    if current_user.is_authenticated:\n        return redirect(url_for(\"main.home\"))\n    form = LoginForm()\n    if form.validate_on_submit():\n        user = User.query.filter_by(email=form.email.data).first()\n        if user and bcrypt.check_password_hash(user.password, form.password.data):\n            login_user(user, remember=form.remember.data)\n            next_page = request.args.get(\"next\", type=str)\n            return redirect(next_page) if next_page else redirect(url_for(\"main.home\"))",
+        "detail": "flaskblog.users.routes",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "flaskblog.users.routes",
+        "description": "flaskblog.users.routes",
+        "peekOfCode": "def logout():\n    logout_user()\n    return redirect(url_for(\"main.home\"))\n@users.route(\"/account\", methods=[\"GET\", \"POST\"])\n@login_required\ndef account():\n    form = UpdateAccountForm()\n    if form.validate_on_submit():\n        if form.picture.data:\n            picture_filename = save_picture(form.picture.data)",
+        "detail": "flaskblog.users.routes",
+        "documentation": {}
+    },
+    {
+        "label": "account",
+        "kind": 2,
+        "importPath": "flaskblog.users.routes",
+        "description": "flaskblog.users.routes",
+        "peekOfCode": "def account():\n    form = UpdateAccountForm()\n    if form.validate_on_submit():\n        if form.picture.data:\n            picture_filename = save_picture(form.picture.data)\n            current_user.image_file = picture_filename\n        current_user.username = form.username.data\n        current_user.email = form.email.data\n        db.session.commit()\n        flash(f\"Your account has been updated!\", \"success\")",
+        "detail": "flaskblog.users.routes",
+        "documentation": {}
+    },
+    {
+        "label": "user_posts",
+        "kind": 2,
+        "importPath": "flaskblog.users.routes",
+        "description": "flaskblog.users.routes",
+        "peekOfCode": "def user_posts(username):\n    page = request.args.get(\"page\", 1, type=int)\n    category = request.args.get(\"category\", type=str, default=None)\n    user = User.query.filter_by(username=username).first_or_404()\n    posts = Post.query.filter_by(author=user).all()\n    categories = []\n    for post in posts:\n        categories.append(post.category)\n    categories = list(set(categories))\n    categories.sort()",
+        "detail": "flaskblog.users.routes",
+        "documentation": {}
+    },
+    {
+        "label": "reset_request",
+        "kind": 2,
+        "importPath": "flaskblog.users.routes",
+        "description": "flaskblog.users.routes",
+        "peekOfCode": "def reset_request():\n    if current_user.is_authenticated:\n        return redirect(url_for(\"main.home\"))\n    form = RequestResetForm()\n    if form.validate_on_submit():\n        user = User.query.filter_by(email=form.email.data).first()\n        if user:\n            send_reset_email(user)\n            flash(\n                f\"An email has been sent with instructions to reset your password.\",",
+        "detail": "flaskblog.users.routes",
+        "documentation": {}
+    },
+    {
+        "label": "reset_token",
+        "kind": 2,
+        "importPath": "flaskblog.users.routes",
+        "description": "flaskblog.users.routes",
+        "peekOfCode": "def reset_token(token):\n    if current_user.is_authenticated:\n        return redirect(url_for(\"main.home\"))\n    user = User.verify_reset_token(token)\n    if not user:\n        flash(f\"That is an invalid or expired token.\", \"warning\")\n        return redirect(url_for(\"users.reset_request\"))\n    form = ResetPasswordForm()\n    if form.validate_on_submit():\n        hashed_password = bcrypt.generate_password_hash(form.password.data).decode(",
+        "detail": "flaskblog.users.routes",
+        "documentation": {}
+    },
+    {
+        "label": "users",
+        "kind": 5,
+        "importPath": "flaskblog.users.routes",
+        "description": "flaskblog.users.routes",
+        "peekOfCode": "users = Blueprint(\"users\", __name__)\n@users.route(\"/register\", methods=[\"GET\", \"POST\"])\ndef register():\n    if current_user.is_authenticated:\n        return redirect(url_for(\"main.home\"))\n    form = RegistrationForm()\n    if form.validate_on_submit():\n        hashed_password = bcrypt.generate_password_hash(form.password.data).decode(\n            \"utf-8\"\n        )",
+        "detail": "flaskblog.users.routes",
+        "documentation": {}
+    },
+    {
+        "label": "save_picture",
+        "kind": 2,
+        "importPath": "flaskblog.users.utils",
+        "description": "flaskblog.users.utils",
+        "peekOfCode": "def save_picture(form_picture):\n    random_hex = secrets.token_hex(8)\n    _, f_ext = os.path.splitext(form_picture.filename)\n    picture_filename = random_hex + f_ext\n    picture_path = os.path.join(app.root_path, \"static/profile_pics\", picture_filename)\n    output_size = (125, 125)\n    i = Image.open(form_picture)\n    i.thumbnail(output_size)\n    i.save(picture_path)\n    return picture_filename",
+        "detail": "flaskblog.users.utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_reset_email",
+        "kind": 2,
+        "importPath": "flaskblog.users.utils",
+        "description": "flaskblog.users.utils",
+        "peekOfCode": "def send_reset_email(user):\n    token = user.get_reset_token()\n    msg = Message(\n        \"Password Reset Request\",\n        sender=\"noreply@minglemagazine.com\",\n        recipients=[user.email],\n    )\n    msg.body = f\"\"\"To reset your password, visit the following link:\n{url_for(\"reset_token\", token=token, _external=True)}\nIf you did not make this request, please ignore this email.",
+        "detail": "flaskblog.users.utils",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "flaskblog.models",
+        "description": "flaskblog.models",
+        "peekOfCode": "class User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(20), unique=True, nullable=False)\n    email = db.Column(db.String(120), unique=True, nullable=False)\n    image_file = db.Column(db.String(30), nullable=False, default=\"default.jpg\")\n    password = db.Column(db.String(60), nullable=False)\n    posts = db.relationship(\"Post\", backref=\"author\", lazy=True)\n    def get_reset_token(self):\n        s = Serializer(app.config[\"SECRET_KEY\"])\n        return s.dumps({\"user_id\": self.id})",
+        "detail": "flaskblog.models",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "kind": 6,
+        "importPath": "flaskblog.models",
+        "description": "flaskblog.models",
+        "peekOfCode": "class Post(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    title = db.Column(db.String(100), nullable=False)\n    tagline = db.Column(db.String(100), nullable=False)\n    category = db.Column(db.String(100), nullable=False)\n    date_posted = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)\n    content = db.Column(db.Text, nullable=False)\n    user_id = db.Column(db.Integer, db.ForeignKey(\"user.id\"), nullable=False)\n    def __repr__(self):\n        return f\"Post('{self.title}', '{self.date_posted}')\"",
+        "detail": "flaskblog.models",
+        "documentation": {}
+    },
+    {
+        "label": "load_user",
+        "kind": 2,
+        "importPath": "flaskblog.models",
+        "description": "flaskblog.models",
+        "peekOfCode": "def load_user(user_id):\n    return User.query.get(int(user_id))\nclass User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(20), unique=True, nullable=False)\n    email = db.Column(db.String(120), unique=True, nullable=False)\n    image_file = db.Column(db.String(30), nullable=False, default=\"default.jpg\")\n    password = db.Column(db.String(60), nullable=False)\n    posts = db.relationship(\"Post\", backref=\"author\", lazy=True)\n    def get_reset_token(self):",
+        "detail": "flaskblog.models",
+        "documentation": {}
+    }
+]

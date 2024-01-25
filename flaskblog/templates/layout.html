@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/main.css') }}" />
+    <title>
+      {% if title %}
+        {{ params['website_name'] }} - {{ title }}
+      {% else %}
+        {{ params['website_name'] }}
+      {% endif %}
+    </title>
+  </head>
+  <body>
+    <!-- Navbar Starts -->
+    <header class="site-header">
+      <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+        <div class="container">
+          <a class="navbar-brand mr-4" href="{{ url_for('main.home') }}">{{ params['website_name'] }}</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
+            <div class="navbar-nav mr-auto">
+              <a class="nav-item nav-link" href="{{ url_for('main.home') }}">Home</a>
+              <a class="nav-item nav-link" href="{{ url_for('main.about') }}">About</a>
+            </div>
+            <!-- Navbar Right Side -->
+            <div class="navbar-nav">
+              {% if current_user.is_authenticated %}
+                <a class="nav-item nav-link" href="{{ url_for('posts.new_post') }}">New Post</a>
+                <a class="nav-item nav-link" href="{{ url_for('users.account') }}">Account</a>
+                <a class="nav-item nav-link" href="{{ url_for('users.logout') }}">Logout</a>
+              {% else %}
+                <a class="nav-item nav-link" href="{{ url_for('users.login') }}">Login</a>
+                <a class="nav-item nav-link" href="{{ url_for('users.register') }}">Register</a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Navbar Ends -->
+
+    <!-- Main Content Starts -->
+    <main role="main" class="container">
+      <div class="row">
+        <div class="col-md-8">
+          {% with messages = get_flashed_messages(with_categories = true) %}
+            {% if messages %}
+              {% for category, message in messages %}
+                <div class="alert alert-{{ category }} alert-dismissible fade show">
+                  {{ message }}
+                  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+              {% endfor %}
+            {% endif %}
+          {% endwith %} {% block content %}
+
+          {% endblock %}
+        </div>
+
+        <div class="col-md-4">
+          <div class="content-section position-fixed">
+            <h3>Our Sidebar</h3>
+            {% if post_categories %}
+              <p class="text-muted">Filter all blogs by a particular blog category</p>
+              <ul class="list-group gap-1" id="mylist">
+                {% if post_category == None %}
+                  <a class="list-group-item list-group-item-action active" href="{{ url_for('main.home') }}">All Posts</a>
+                {% else %}
+                  <a class="list-group-item list-group-item-action" href="{{ url_for('main.home') }}">All Posts</a>
+                {% endif %}
+                {% for category in post_categories %}
+                  {% if post_category == category %}
+                    <a class="list-group-item list-group-item-action active" href="{{ url_for('main.home', category = category) }}">{{ category }}</a>
+                  {% else %}
+                    <a class="list-group-item list-group-item-action" href="{{ url_for('main.home', category = category) }}">{{ category }}</a>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            {% elif user_post_categories %}
+              <p class="text-muted">Filter all blogs by a particular blog category</p>
+              <ul class="list-group gap-1" id="mylist">
+                {% if user_post_category == None %}
+                  <a class="list-group-item list-group-item-action active" href="{{ url_for('users.user_posts', username = user.username) }}">All Posts</a>
+                {% else %}
+                  <a class="list-group-item list-group-item-action" href="{{ url_for('users.user_posts', username = user.username) }}">All Posts</a>
+                {% endif %}
+                {% for category in user_post_categories %}
+                  {% if user_post_category == category %}
+                    <a class="list-group-item list-group-item-action active" href="{{ url_for('users.user_posts', username = user.username, category = category) }}">{{ category }}</a>
+                  {% else %}
+                    <a class="list-group-item list-group-item-action" href="{{ url_for('users.user_posts', username = user.username, category = category) }}">{{ category }}</a>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            {% else %}
+              <p class="text-muted">You can put any information here you'd like.</p>
+              <ul class="list-group gap-2" id="mylist">
+                <a class="list-group-item list-group-item-action" href="{{ url_for('main.home') }}">Latest Posts</a>
+                <a class="list-group-item list-group-item-action" href="">Announcements</a>
+                <a class="list-group-item list-group-item-action" id="cal" href="{{ url_for('main.calendar') }}">Calendar</a>
+              </ul>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Main Content Ends -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.9/index.global.min.js"></script>
+    <script>
+      site_path = "{{ url_for('main.calendar') }}"
+      url__pathname = window.location.pathname
+      
+      if (url__pathname == site_path) {
+        document.getElementById('cal').classList.add('active')
+      } else {
+        document.getElementById('cal').classList.remove('active')
+      }
+    </script>
+  </body>
+</html>
