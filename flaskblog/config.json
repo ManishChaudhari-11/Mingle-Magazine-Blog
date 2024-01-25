@@ -1,10 +1,10 @@
 {
   "params": {
     "website_name": "Mingle Magazine",
-    "super-secret-key": "bcd965c722fe017a60404e11a3781bf8",
-    "local_db_uri": "postgresql://manish:manish@localhost/mingle_magazine",
+    "super-secret-key": "YOUR_SECRET_KEY",
+    "local_db_uri": "YOUR_DB_URL",
     "posts_per_page": 3,
-    "gmail-user": "codingmaniasolutions@gmail.com",
-    "gmail-pass": "sajyribsbevfvhrj"
+    "gmail-user": "YOUR EMAIL",
+    "gmail-pass": "YOUR PASSWORD"
   }
 }
